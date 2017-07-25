@@ -1,0 +1,15 @@
+{
+  "name": "mochachai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2"
+  }
+}

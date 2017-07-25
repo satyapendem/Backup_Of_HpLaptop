@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,100,200,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Exo:400,400italic,500,600,700,800,900,300,200,100);
+	
+/*
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Exo', sans-serif;
+	
+*/
+
+
+body {
+	font-family: "Lato",Arial,sans-serif;
+	background:#A19C69;
+	color:#fff;
+}
+
+/* ******************************************************
+	Basic Styling
+*********************************************************/
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+/* ******************************************************
+	Header
+*********************************************************/
+.container > header,
+.codeconTop {
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.container > header {
+    color: #fff;
+    float: left;
+    margin: 0 auto;
+    padding: 2em 4em;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
+}
+.container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 900;
+}
+
+.container > header span {
+	display: block;
+	font-size: 60%;
+	color:#fff;
+	padding: 0 0 0.6em 0.1em;
+}
+
+/* To Navigation Style */
+.codeconTop {
+	float:left;
+    background:#54573A;
+    font-size: 0.69em;
+    line-height: 2.2;
+    padding: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.codeconTop li{
+	list-style:none;
+	display:inline-block;	
+}
+.codeconTop a {
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    padding: 2em;
+    text-decoration: none;
+}
+
+.codeconTop a:hover {
+	/*background: rgba(255,255,255,0.95);*/
+	color: #716d62;
+}
+
+.codeconTop span.right {
+	float: right;
+}
+
+.codeconTop span.right a {
+	float: left;
+	display: block;
+}
+
+/* grids*/
+.codecon_full{
+	width:100%;
+	float:left;	
+}
+.codecon_half{
+	float:left;
+	width:48%;	
+}
+
+
+/* content area */
+.container > section {
+    font-family: "Raleway",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 175%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0;
+    text-align: justify;
+    width: 80%;
+}
+
+/* demo nav style */
+.codeconNav{}
+.codeconNav ul{}
+.codeconNav li{
+	list-style:none;
+	display:inline-block;	
+}
+.codeconNav li a span:hover{
+	color:#000;
+}
+
+/* demo buttons */
+.codeconDemos a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0.5em;
+    outline: medium none;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+}
+.codeconDemos a:hover, 
+.codeconDemos a.active, 
+.codeconDemos a.active:hover {
+    opacity: 0.7;
+}
+
+
+
+@media screen and (max-width: 25em) {}
